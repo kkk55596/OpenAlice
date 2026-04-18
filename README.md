@@ -140,6 +140,8 @@ pnpm dev
 
 Open [localhost:3002](http://localhost:3002) and start chatting. No API keys or config needed — the default setup uses your local Claude Code login (Claude Pro/Max subscription).
 
+For cloud deployment on Zeabur, see [docs/deploy/zeabur.md](docs/deploy/zeabur.md).
+
 ## Configuration
 
 All config lives in `data/config/` as JSON files with Zod validation. Missing files fall back to sensible defaults. You can edit these files directly or use the Web UI.
